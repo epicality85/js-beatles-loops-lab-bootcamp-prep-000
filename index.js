@@ -53,5 +53,9 @@ strings "I love the Beatles!"
 */
 function iLoveTheBeatles(number)
 {
+  var retArray = new Array()
   
+  do-while
+  
+  return retArray
 }
