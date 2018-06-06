@@ -55,7 +55,10 @@ function iLoveTheBeatles(number)
 {
   var retArray = new Array()
   
-  do-while
+  do
+  {
+    retArray.shift("I love the Beatles!")
+  } while(true);
   
   return retArray
 }
