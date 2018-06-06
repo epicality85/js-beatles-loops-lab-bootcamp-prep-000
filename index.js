@@ -57,8 +57,9 @@ function iLoveTheBeatles(number)
   
   do
   {
-    retArray.shift("I love the Beatles!")
-  } while(true);
+    retArray.unshift("I love the Beatles!")
+    number--
+  } while(number < 15);
   
   return retArray
 }
